@@ -39,7 +39,7 @@
 </html>
 function saveToGlide() {
   var content = quill.root.innerHTML; // get styled text
-  fetch(https://hooks.glideapp.io/api/webhooks/abcd1234efgh5678ijkl, {
+  fetch("https://hooks.glideapp.io/api/webhooks/abcd1234efgh5678ijkl", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ Final_Text: content })
